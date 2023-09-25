@@ -1,0 +1,23 @@
+world_visit = ['dubai','caneda','india','shingapur','china']
+print('\noriginal list:\n')
+print(world_visit)
+print('\nsorted list:\n')
+print(sorted(world_visit))
+print('\nrevrse sorted list:\n')
+print(sorted(world_visit,reverse=True))
+print('\noriginal list:')
+print(world_visit)
+print('\nreverse list:')
+world_visit.reverse()
+print(world_visit)
+print('\nafter reverse one more time list:')
+world_visit.reverse()
+print(world_visit)
+
+print('\n sort list:')
+world_visit.sort()
+print(world_visit)
+
+print('\n revrse sort list:')
+world_visit.sort(reverse=True)
+print(world_visit)
